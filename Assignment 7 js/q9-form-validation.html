@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Form Validation</title>
+    <style>
+      body {
+        font-family:Arial;
+        max-width:450px;
+        margin:40px auto
+      }
+      input,button {
+        display:block;
+        padding:9px;
+        width:100%;
+        box-sizing:border-box;
+        margin-top:8px
+      }
+      .error {
+        color:#c62828;
+        font-size:14px;
+        min-height:18px
+      }
+      .success {
+        color:green;
+        font-weight:bold
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Sign Up</h2>
+    <form id="signup">
+      <label>Name<input id="fullName">
+    </label>
+    <div class="error" id="nameError">
+    </div>
+    <label>Email<input id="email">
+  </label>
+  <div class="error" id="emailError">
+  </div>
+  <label>Password<input id="password" type="password">
+</label>
+<div class="error" id="passwordError">
+</div>
+<button>Submit</button>
+</form>
+<p id="success" class="success">
+</p>
+<script src="q9-form-validation.js">
+</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Mouse Logger</title>
+    <style>
+      body {
+        font-family:Arial;
+        margin:40px
+      }
+      .box {
+        height:400px;
+        width:400px;
+        background:#eef4ff;
+        border:2px solid #356;
+        position:relative
+      }
+      .dot {
+        width:10px;
+        height:10px;
+        background:red;
+        border-radius:50%;
+        position:absolute;
+        transform:translate(-50%,-50%)
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Mouse Coordinates</h2>
+    <p id="coordinates">Move inside the box</p>
+    <div class="box" id="box">
+    </div>
+    <script src="q7-mouse-logger.js">
+    </script>
+  </body>
+</html>

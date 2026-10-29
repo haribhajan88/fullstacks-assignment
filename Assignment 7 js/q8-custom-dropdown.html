@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Custom Dropdown</title>
+    <style>
+      body {
+        font-family:Arial;
+        margin:40px
+      }
+      .dropdown {
+        position:relative;
+        width:200px
+      }
+      button,.option {
+        padding:10px;
+        width:100%;
+        box-sizing:border-box;
+        text-align:left
+      }
+      .options {
+        display:none;
+        border:1px solid #aaa
+      }
+      .options.show {
+        display:block
+      }
+      .option {
+        cursor:pointer
+      }
+      .option:hover {
+        background:#eee
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Custom Dropdown</h2>
+    <div class="dropdown" id="dropdown">
+      <button id="toggle">Choose a branch</button>
+      <div class="options" id="options">
+        <div class="option">CSE</div>
+        <div class="option">ECE</div>
+        <div class="option">Mechanical</div>
+      </div>
+    </div>
+    <script src="q8-custom-dropdown.js">
+    </script>
+  </body>
+</html>

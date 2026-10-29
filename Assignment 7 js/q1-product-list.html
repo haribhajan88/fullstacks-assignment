@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Product List</title>
+    <style>
+      body {
+        font-family:Arial;
+        max-width:600px;
+        margin:40px auto
+      }
+      input,button {
+        padding:8px;
+        margin:4px
+      }
+      li {
+        margin:8px 0
+      }
+      .edit {
+        background:#fff3cd
+      }
+      .hint {
+        color:#666;
+        font-size:14px
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Product List</h2>
+    <input id="productInput" placeholder="Enter product name">
+    <button id="addButton">Add Product</button>
+    <p class="hint">Click Edit, change the name, then click outside to save.</p>
+    <ul id="productList">
+    </ul>
+    <script src="q1-product-list.js">
+    </script>
+  </body>
+</html>

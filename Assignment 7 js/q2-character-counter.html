@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Character Counter</title>
+    <style>
+      body {
+        font-family:Arial;
+        max-width:600px;
+        margin:40px auto
+      }
+      textarea {
+        width:100%;
+        height:120px;
+        padding:10px;
+        box-sizing:border-box
+      }
+      .counter {
+        font-weight:bold
+      }
+      .yellow {
+        color:#a66d00
+      }
+      .red {
+        color:#c62828
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Message (maximum 100 characters)</h2>
+    <textarea id="message" placeholder="Start typing...">
+    </textarea>
+    <p id="counter" class="counter">100 characters left</p>
+    <button id="reset">Reset</button>
+    <script src="q2-character-counter.js">
+    </script>
+  </body>
+</html>
