@@ -1,0 +1,1 @@
+.plan { transition: transform .2s ease; }.plan:hover { transform: translateY(-8px); }
